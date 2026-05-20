@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.vue",
+    "**/*.ts",
+    "**/*.vue",
+    "**/*.md"
+  ],
+  "vueCompilerOptions": {
+    "vitePressExtensions": [".md"]
+  }
+}
