@@ -8,7 +8,14 @@ title: Git 安装指南
 
 ## 官方网站
 
-https://git-scm.com/
+<div class="official-site-preview">
+  <iframe src="https://git-scm.com/" loading="lazy">
+  </iframe>
+  <p class="fallback-link">
+    如果页面未能加载（大部分官网禁止嵌入），请直接访问：
+    <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">https://git-scm.com/</a>
+  </p>
+</div>
 
 ## 安装步骤
 

@@ -49,11 +49,6 @@ export default defineConfig({
       provider: 'local',
     },
 
-    editLink: {
-      pattern: '#',
-      text: '在 GitHub 上编辑此页',
-    },
-
     lastUpdated: {
       text: '最后更新',
     },

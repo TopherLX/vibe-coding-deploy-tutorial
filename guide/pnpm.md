@@ -8,7 +8,14 @@ title: pnpm 安装指南
 
 ## 官方网站
 
-https://pnpm.io/installation
+<div class="official-site-preview">
+  <iframe src="https://pnpm.io/installation" loading="lazy">
+  </iframe>
+  <p class="fallback-link">
+    如果页面未能加载（大部分官网禁止嵌入），请直接访问：
+    <a href="https://pnpm.io/installation" target="_blank" rel="noopener noreferrer">https://pnpm.io/installation</a>
+  </p>
+</div>
 
 ## 安装步骤
 
