@@ -14,9 +14,32 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: '首页', link: '/' },
-      { text: '安装依赖项', link: '/guide/install-dependencies' },
-      { text: 'AI开发工具', link: '/guide/install-ai-tools' },
+      {
+        text: '目录',
+        items: [
+          {
+            text: '安装依赖项',
+            items: [
+              { text: '概述', link: '/guide/install-dependencies' },
+              { text: 'Visual Studio Code', link: '/guide/vscode' },
+              { text: 'PowerShell 7', link: '/guide/powershell' },
+              { text: 'Windows Terminal', link: '/guide/windows-terminal' },
+              { text: 'Node.js', link: '/guide/nodejs' },
+              { text: 'pnpm', link: '/guide/pnpm' },
+              { text: 'Git', link: '/guide/git' },
+            ],
+          },
+          {
+            text: '安装 AI 开发工具',
+            items: [
+              { text: '概述', link: '/guide/install-ai-tools' },
+              { text: 'Claude Code 终端', link: '/guide/claude-code-terminal' },
+              { text: 'Claude Code 扩展', link: '/guide/claude-code-extension' },
+              { text: 'CC Switch', link: '/guide/cc-switch' },
+            ],
+          },
+        ],
+      },
     ],
 
     sidebar: [
