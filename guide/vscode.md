@@ -10,7 +10,7 @@ VS Code 运行十分轻快，对绝大多数硬件设备和操作系统版本都
 
 ## 官方网站
 
-![](/images/vscode/01-website.png)
+![](../images/vscode/01-website.png)
 
 ## 安装步骤
 
@@ -19,38 +19,38 @@ VS Code 运行十分轻快，对绝大多数硬件设备和操作系统版本都
   2. 否则，使用 **User Installer** `VSCodeUserSetup-x64-1.120.0.exe`
 2. 选择`我同意此协议`并点击`下一步`
 
-![](/images/vscode/02-license.png)
+![](../images/vscode/02-license.png)
 
 3. 如果使用System Installer，有额外步骤
 
 选择安装路径并点击`下一步`
 
-![](/images/vscode/03-path-system.png)
+![](../images/vscode/03-path-system.png)
 
 点击`下一步`
 
-![](/images/vscode/04-system-next.png)
+![](../images/vscode/04-system-next.png)
 
 4. 按需选择附加任务并点击`下一步`
 
-![](/images/vscode/05-additional-tasks.png)
+![](../images/vscode/05-additional-tasks.png)
 
 4. 点击`安装`
 
-![](/images/vscode/06-install.png)
+![](../images/vscode/06-install.png)
 
 5. 等待安装完成，点击`完成`
 
-![](/images/vscode/07-progress.png)
+![](../images/vscode/07-progress.png)
 
-![](/images/vscode/08-complete.png)
+![](../images/vscode/08-complete.png)
 
 ## 验证
 
 1. 可以在开始菜单中找到应用
 
-![](/images/vscode/09-start-menu.png)
+![](../images/vscode/09-start-menu.png)
 
 2. 打开后界面如下图
 
-![](/images/vscode/10-opened.png)
+![](../images/vscode/10-opened.png)

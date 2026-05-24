@@ -8,11 +8,11 @@ title: Claude Code 终端安装指南
 
 Claude Code 是一款由 AI 驱动的编程助手，旨在帮助您构建新功能、修复 Bug 并自动化开发任务。它能够理解您的整个代码库，并跨多个文件和工具高效协同以完成工作。
 
-![](/images/claude-code-terminal/01-demo.gif)
+![](../images/claude-code-terminal/01-demo.gif)
 
 ## 官方网站
 
-![](/images/claude-code-terminal/02-website.png)
+![](../images/claude-code-terminal/02-website.png)
 
 ## 安装步骤
 
@@ -30,7 +30,7 @@ irm https://claude.ai/install.ps1 | iex
 pnpm add @anthropic-ai/claude-code-win32-x64 -g
 ```
 
-![](/images/claude-code-terminal/03-pnpm-install.png)
+![](../images/claude-code-terminal/03-pnpm-install.png)
 
 3. 无网络安装，使用附件`claude-2.1.144-win32-x64.exe`，终端输入命令
 
@@ -42,11 +42,11 @@ cd G:\OneDrive\AI Studio\Tutorials
 ./claude-2.1.144-win32-x64.exe install
 ```
 
-![](/images/claude-code-terminal/04-offline-install.png)
+![](../images/claude-code-terminal/04-offline-install.png)
 
 ## 验证
 
 1. 终端输入命令 `claude --version`
 2. 如下图，正常显示版本号则安装成功
 
-![](/images/claude-code-terminal/05-verify.png)
+![](../images/claude-code-terminal/05-verify.png)

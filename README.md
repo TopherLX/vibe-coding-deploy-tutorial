@@ -64,7 +64,7 @@ guide/                     # 12 个教程内容页
 ├── install-ai-tools.md
 ├── vscode.md / powershell.md / windows-terminal.md / nodejs.md / pnpm.md / git.md
 ├── claude-code-terminal.md / claude-code-extension.md / cc-switch.md
-public/images/             # 82 张教程截图（9 个章节子目录）
+images/                   # 82 张教程截图（9 个章节子目录）
 ```
 
 ## 部署

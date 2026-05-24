@@ -8,27 +8,27 @@ title: CC Switch 安装与配置指南
 
 ## 官方网站
 
-![](/images/cc-switch/01-website.png)
+![](../images/cc-switch/01-website.png)
 
 ## 安装步骤
 
 1. 从官方网站下载，或使用附件`CC-Switch-v3.15.0-Windows.msi`安装并点击`Next`
 
-![](/images/cc-switch/02-installer.png)
+![](../images/cc-switch/02-installer.png)
 
 2. 选择安装路径并点击`Next`
 
-![](/images/cc-switch/03-path.png)
+![](../images/cc-switch/03-path.png)
 
 3. 并点击`Install`
 
-![](/images/cc-switch/04-install.png)
+![](../images/cc-switch/04-install.png)
 
 4. 等待安装完成，点击`Finish`
 
-![](/images/cc-switch/05-complete.png)
+![](../images/cc-switch/05-complete.png)
 
-![](/images/cc-switch/06-complete2.png)
+![](../images/cc-switch/06-complete2.png)
 
 ## 配置第三方模型
 
@@ -36,31 +36,31 @@ title: CC Switch 安装与配置指南
 
 1. [DeepSeek 开放平台](https://platform.deepseek.com/sign_in) 注册并充值
 
-![](/images/cc-switch/07-deepseek-signup.png)
+![](../images/cc-switch/07-deepseek-signup.png)
 
 2. 创建API Key
 
-![](/images/cc-switch/08-create-key.png)
+![](../images/cc-switch/08-create-key.png)
 
 3. 复制API Key（注意：只显示一次，如果遗忘需要重新创建）
 
-![](/images/cc-switch/09-copy-key.png)
+![](../images/cc-switch/09-copy-key.png)
 
 4. 打开CC Switch，点击右上角`+`
 
-![](/images/cc-switch/10-click-plus.png)
+![](../images/cc-switch/10-click-plus.png)
 
 5. 点击`Claude 供应商`
 
-![](/images/cc-switch/11-provider.png)
+![](../images/cc-switch/11-provider.png)
 
 6. 向下滚动，填写刚才复制的`API Key`
 
-![](/images/cc-switch/12-api-key.png)
+![](../images/cc-switch/12-api-key.png)
 
 7. 参考下图填写`模型映射`和`默认兜底模型`，最后点击`添加`
 
-![](/images/cc-switch/13-model-mapping.png)
+![](../images/cc-switch/13-model-mapping.png)
 
 ## 验证第三方模型接入
 
@@ -69,15 +69,15 @@ title: CC Switch 安装与配置指南
 1. 打开终端，先cd到项目路径
 2. 输入`claude`，可见模型为deepseek-v4-pro
 
-![](/images/cc-switch/15-terminal-demo.gif)
+![](../images/cc-switch/15-terminal-demo.gif)
 
-![](/images/cc-switch/14-terminal-verify.png)
+![](../images/cc-switch/14-terminal-verify.png)
 
 ### 以Claude Code扩展为例
 
 1. 打开VS Code，点击`Claude Code扩展`、`New session`
 2. 对话框输入`/model`，可见模型为deepseek-v4-pro
 
-![](/images/cc-switch/16-extension-demo.gif)
+![](../images/cc-switch/16-extension-demo.gif)
 
 至此，Claude Code开发环境所需依赖项、自身应用程序、第三方模型均已安装或配置完成

@@ -10,8 +10,8 @@ VS Code 扩展为 Claude Code 提供了原生图形界面，并直接集成到 I
 
 1. 点击左侧栏的`扩展图标`、搜索`claude code`、点击`首个扩展`、点击`Install`
 
-![](/images/claude-code-extension/01-install.png)
+![](../images/claude-code-extension/01-install.png)
 
 2. 安装后，左侧栏会新增Claude Code扩展图标
 
-![](/images/claude-code-extension/02-icon.png)
+![](../images/claude-code-extension/02-icon.png)
