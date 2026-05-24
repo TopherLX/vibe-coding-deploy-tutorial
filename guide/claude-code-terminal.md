@@ -32,7 +32,7 @@ irm https://claude.ai/install.ps1 | iex
 npm install @anthropic-ai/claude-code -g
 ```
 
-![](../images/claude-code-terminal/npm安装结果.png)
+![](../images/claude-code-terminal/03-npm-install-result.png)
 
 2. 接下来添加环境变量，首先查看npm全局安装包根路径
 
@@ -40,26 +40,26 @@ npm install @anthropic-ai/claude-code -g
 npm root -g
 ```
 
-![](../images/claude-code-terminal/npm全局根路径.png)
+![](../images/claude-code-terminal/04-npm-global-root.png)
 
 3. 复制路径并打开文件夹，依次打开子文件夹@anthropic-ai、claude-code、bin，可见`claude.exe`，即Claude Code CLI工具
 
 4. 复制当前文件资源管理器所在路径
 
-![](../images/claude-code-terminal/npm-claude-cli路径.png)
+![](../images/claude-code-terminal/05-npm-claude-cli-path.png)
 
 5. `Win + R` 输入 `sysdm.cpl`，打开`系统属性`窗口，依次点击`高级`、`环境变量`
 
-![](../images/claude-code-terminal/系统属性.png)
+![](../images/claude-code-terminal/06-system-properties.png)
 
 6. 在`用户变量`或`系统变量`中找到`Path`
 
-![](../images/claude-code-terminal/环境变量Path.png)
+![](../images/claude-code-terminal/07-env-var-path.png)
 
 
 7. 双击打开`编辑环境变量`窗口，点击`新建`并粘贴刚才复制的bin路径
 
-![](../images/claude-code-terminal/环境变量Path-claude.png)
+![](../images/claude-code-terminal/08-env-var-path-claude.png)
 
 8. 点击`确定`以保存更改
 
@@ -74,11 +74,11 @@ cd G:\OneDrive\AI Studio\Tutorials
 ./claude-2.1.144-win32-x64.exe install
 ```
 
-![](../images/claude-code-terminal/04-offline-install.png)
+![](../images/claude-code-terminal/09-offline-install.png)
 
 ## 验证
 
 1. 终端输入命令 `claude --version`
 2. 如下图，正常显示版本号则安装成功
 
-![](../images/claude-code-terminal/05-verify.png)
+![](../images/claude-code-terminal/10-verify.png)
