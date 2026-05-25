@@ -1,4 +1,7 @@
 {
+  "attribution": {
+    "commit": "Agent: Claude LLM: DeepSeek-V4"
+  },
   "permissions": {
     "allow": [
       "Bash(npm:*)",
