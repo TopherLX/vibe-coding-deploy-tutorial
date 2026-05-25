@@ -37,7 +37,7 @@
 .VPHero {
   position: relative;
   padding-top: 106px !important;
-  padding-bottom: 16px !important;
+  padding-bottom: 0 !important;
 }
 
 .VPHero .container {
@@ -86,6 +86,11 @@
 
 .dark .VPHero .text {
   color: var(--vp-c-text-1);
+}
+
+.VPHero .actions {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
 }
 
 .VPHero .VPButton.brand {
@@ -157,7 +162,60 @@
   height: 500px;
 }
 
-.official-site-preview .fallback-link {
+/* === Author Signature === */
+.author-signature {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  max-width: var(--vp-layout-max-width);
+  margin: 0 auto;
+  padding: 1.5rem 0 0.5rem;
+  font-size: 0.8125rem;
+  color: var(--vp-c-text-3);
+  letter-spacing: 0.02em;
+}
+
+/* Push signature to bottom on home page */
+.VPHome .author-signature {
+  max-width: var(--vp-layout-max-width);
+  margin: 0 auto;
+  padding: 0.75rem 24px 0.5rem;
+}
+
+.author-signature .signature-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--vp-c-divider) 60%,
+    var(--vp-c-brand-3) 100%
+  );
+  margin-right: 0.75rem;
+}
+
+.author-signature .signature-name {
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  transition: color 0.2s;
+}
+
+.author-signature .signature-name:hover {
+  color: var(--vp-c-brand-1);
+}
+
+.author-signature .signature-divider {
+  color: var(--vp-c-brand-3);
+  font-weight: 300;
+}
+
+.author-signature .signature-role {
+  font-weight: 300;
+}
+
+/* === iframe Preview === */
+.official-site-preview {
   margin-top: 0.5rem;
   font-size: 0.875rem;
   color: var(--vp-c-text-2);

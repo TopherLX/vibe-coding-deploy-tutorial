@@ -12,14 +12,9 @@ hero:
 
 <div class="home-intro">
 
-## 什么是 Vibe Coding？
+## 教程简介
 
 本教程面向 Windows 用户，系统性地指导完成 **Vibe Coding（氛围编程）** 开发环境的完整搭建。Vibe Coding 是一种以 AI 为核心驱动力的现代编程范式——开发者通过自然语言描述意图，由 AI 助手完成代码生成、编辑与调试，从而将精力聚焦于设计思路而非实现细节。
-
-教程分为两大阶段：
-
-1. **基础依赖项安装** — 涵盖 Visual Studio Code（代码编辑器）、PowerShell 7（跨平台脚本终端）、Windows Terminal（现代化终端应用）、Node.js + pnpm（JavaScript 运行时与包管理器）、以及 Git（版本控制系统）。每一步均配有截图指引和验证方法，确保零基础用户也能顺利完成。
-2. **AI 开发工具安装与配置** — 首先安装 Claude Code（Anthropic 推出的智能体编程工具）及其 VS Code 插件，获得终端 + IDE 双场景的 AI 编程能力；随后通过 CC Switch 工具配置第三方模型（如 DeepSeek-v4），实现一键切换 AI 服务商，摆脱对单一模型的依赖。
 
 全教程以图文并茂的方式呈现，每节末尾附有验证步骤，方便读者随时自查安装是否成功。完成全部配置后，即可在 Windows 环境中流畅使用 AI 赋能的 Vibe Coding 工作流。
 
@@ -98,10 +93,17 @@ hero:
   </div>
 </div>
 
+<div class="author-signature">
+  <span class="signature-line"></span>
+  <span class="signature-name">Lixian ZHANG</span>
+  <span class="signature-divider">·</span>
+  <span class="signature-role">CTTQ</span>
+</div>
+
 <style>
 .home-grid {
   max-width: 1152px;
-  margin: 48px auto 0;
+  margin: 0 auto;
   padding: 0 24px;
 }
 
@@ -110,14 +112,38 @@ hero:
   font-weight: 600;
   color: var(--vp-c-text-1);
   margin-bottom: 20px;
-  padding-left: 4px;
+  padding: 12px 0 0 4px;
+  border-top: none;
+  position: relative;
+}
+
+.home-grid .section-title::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 0;
+  height: 1px;
+  background: var(--vp-c-divider);
+}
+
+/* 仅第二个分区标题去掉分割线，上下间距一致 */
+.home-grid .section-title + .grid-row + .section-title {
+  border-top: none;
+  padding-top: 0;
+  margin-top: -4px;
+  margin-bottom: 20px;
+}
+
+.home-grid .section-title + .grid-row + .section-title::before {
+  display: none;
 }
 
 .grid-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .grid-card {
@@ -205,7 +231,7 @@ hero:
   max-width: 1152px;
   margin: 24px auto 0;
   text-align: left;
-  padding: 0 24px;
+  padding: 0 24px 0;
 }
 
 .home-intro h2 {
@@ -219,5 +245,6 @@ hero:
   font-size: 1.1rem;
   line-height: 1.7;
   color: var(--vp-c-text-2);
+  margin-bottom: 0;
 }
 </style>
