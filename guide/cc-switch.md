@@ -68,6 +68,7 @@ title: CC Switch 安装与配置指南
 
 1. 打开终端，先cd到项目路径
 2. 输入`claude`，可见模型为deepseek-v4-pro
+3. 如果是首次安装，会有诸如主题等简单设置的步骤，默认 `Enter` 即可
 
 ![](../images/cc-switch/15-terminal-demo.gif)
 

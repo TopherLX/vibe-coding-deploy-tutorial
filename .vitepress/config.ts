@@ -38,6 +38,12 @@ export default defineConfig({
               { text: 'CC Switch', link: '/guide/cc-switch' },
             ],
           },
+          {
+            text: '常见问题解答',
+            items: [
+              { text: 'FAQ', link: '/guide/faq' },
+            ],
+          },
         ],
       },
     ],
@@ -64,6 +70,13 @@ export default defineConfig({
           { text: 'Claude Code 终端', link: '/guide/claude-code-terminal' },
           { text: 'Claude Code 扩展', link: '/guide/claude-code-extension' },
           { text: 'CC Switch', link: '/guide/cc-switch' },
+        ],
+      },
+      {
+        text: '常见问题解答',
+        collapsed: false,
+        items: [
+          { text: 'FAQ', link: '/guide/faq' },
         ],
       },
     ],
