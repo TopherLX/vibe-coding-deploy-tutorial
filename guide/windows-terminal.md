@@ -11,10 +11,6 @@ title: Windows Terminal 安装指南
 <div class="official-site-preview">
   <iframe src="https://apps.microsoft.com/detail/9n0dx20hk701?hl=zh-CN&gl=CN" loading="lazy">
   </iframe>
-  <p class="fallback-link">
-    如果页面未能加载（大部分官网禁止嵌入），请直接访问：
-    <a href="https://apps.microsoft.com/detail/9n0dx20hk701?hl=zh-CN&gl=CN" target="_blank" rel="noopener noreferrer">https://apps.microsoft.com/detail/9n0dx20hk701?hl=zh-CN&gl=CN</a>
-  </p>
 </div>
 
 ## 安装步骤

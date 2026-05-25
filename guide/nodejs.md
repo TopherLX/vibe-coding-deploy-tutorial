@@ -11,10 +11,6 @@ title: Node.js 安装指南
 <div class="official-site-preview">
   <iframe src="https://nodejs.org/en" loading="lazy">
   </iframe>
-  <p class="fallback-link">
-    如果页面未能加载（大部分官网禁止嵌入），请直接访问：
-    <a href="https://nodejs.org/en" target="_blank" rel="noopener noreferrer">https://nodejs.org/en</a>
-  </p>
 </div>
 
 ## 安装步骤
