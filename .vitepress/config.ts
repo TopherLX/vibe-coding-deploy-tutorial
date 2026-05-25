@@ -13,6 +13,8 @@ export default defineConfig({
   },
 
   themeConfig: {
+    siteTitle: '首页',
+
     nav: [
       {
         text: '目录',
@@ -38,14 +40,9 @@ export default defineConfig({
               { text: 'CC Switch', link: '/guide/cc-switch' },
             ],
           },
-          {
-            text: '常见问题解答',
-            items: [
-              { text: 'FAQ', link: '/guide/faq' },
-            ],
-          },
         ],
       },
+      { text: 'FAQ', link: '/guide/faq' },
     ],
 
     sidebar: [
@@ -97,5 +94,9 @@ export default defineConfig({
     outline: {
       label: '页面导航',
     },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/TopherLX/vibe-coding-deploy-tutorial' },
+    ],
   },
 })
