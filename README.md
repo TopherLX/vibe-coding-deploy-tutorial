@@ -59,12 +59,13 @@ npm run preview
     ├── index.ts           # 主题入口
     └── custom.css         # Tailwind v4 + 品牌色 + 渐变动画 + 自定义组件
 index.md                   # 首页（Hero + 网格目录卡片）
-guide/                     # 12 个教程内容页
+guide/                     # 13 个教程内容页
 ├── install-dependencies.md
 ├── install-ai-tools.md
 ├── vscode.md / powershell.md / windows-terminal.md / nodejs.md / pnpm.md / git.md
 ├── claude-code-terminal.md / claude-code-extension.md / cc-switch.md
-images/                   # 82 张教程截图（9 个章节子目录）
+└── faq.md                 # 常见问题解答
+images/                   # 按章节组织的截图（12 个章节子目录）
 ```
 
 ## 部署
