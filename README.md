@@ -48,7 +48,6 @@ npm run preview
 - **框架**: [VitePress](https://vitepress.dev/) — 基于 Vite 的静态站点生成器
 - **样式**: [Tailwind CSS v4](https://tailwindcss.com/) + 自定义 CSS
 - **语言**: TypeScript
-- **品牌色**: Vue 绿 (`#42b883`)
 
 ## 项目结构
 
