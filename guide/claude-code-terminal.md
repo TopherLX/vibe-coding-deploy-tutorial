@@ -34,27 +34,21 @@ npm install @anthropic-ai/claude-code -g
 
 2. 参考下方验证小节，如见下图提示，重新打开终端并再次尝试；如仍然报错，则继续下方步骤
 
-**以下步骤仅验证失败时进行**
+![](../images/claude-code-terminal/04-npm-command-not-found.png)
+
+**！！！以下步骤仅验证失败时进行！！！**
 
 通常情况下，运行 `npm install @anthropic-ai/claude-code -g` 时，npm 会自动生成启动脚本 `claude.ps1`，这样才能在终端直接敲命令：
 
 1. 终端输入 `npm config get prefix`，获取 npm 全局可执行脚本路径，打开对应文件夹
 2. 如果存在 `claude.ps1`，则路径可能未成功配置到用户环境变量，需手动添加
-3. 如果不存在，终端输入 `npm root -g`，获取 npm 全局安装包根路径，打开对应文件夹，依次打开子文件夹 @anthropic-ai、claude-code、bin，可见 `claude.exe` 文件，并将当前文件夹路径手动添加至用户环境变量
-
-![](../images/claude-code-terminal/05-npm-claude-cli-path.png)
+3. 如果不存在，终端输入 `npm root -g`，获取 npm 全局安装包根路径，打开对应文件夹，依次打开子文件夹 @anthropic-ai、claude-code、bin，可见 `claude.exe` 文件，将当前文件夹路径手动添加至用户环境变量
 
 环境变量添加方法参考 [常见问题解答](../guide/faq.md#q5-如何编辑用户环境变量)。
-
-### 使用 pnpm 安装
-
-```powershell
-pnpm add @anthropic-ai/claude-code -g
-```
 
 ## 验证
 
 1. 终端输入命令 `claude --version`
 2. 如下图，正常显示版本号则安装成功
 
-![](../images/claude-code-terminal/10-verify.png)
+![](../images/claude-code-terminal/05-verify.png)
