@@ -148,6 +148,25 @@
 /* Feature icon styling */
 .VPFeature .icon {
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.VPFeature .icon img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Feature card link text */
+.VPFeature .link-text {
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+}
+
+/* Section title divider */
+.VPHome .VPFeatures + .home-desc {
+  margin-top: 48px;
 }
 
 /* === iframe Preview === */

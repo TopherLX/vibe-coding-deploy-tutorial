@@ -64,4 +64,4 @@ title: CC Switch 安装与配置指南
 
 ## 下一步
 
-配置完成后，请前往[验证第三方模型接入](/guide/verify-third-party-model)确认模型是否已正确切换。
+配置完成后，请前往[验证第三方模型接入](/deploy/verify-third-party-model)确认模型是否已正确切换。
