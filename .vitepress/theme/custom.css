@@ -239,3 +239,150 @@
   font-size: 0.875rem;
   color: var(--vp-c-text-2);
 }
+
+/* ==============================================
+   Root Landing Page (只含 VPFeatures 的首页)
+   ============================================== */
+
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPHero {
+  padding-top: 30vh !important;
+  padding-bottom: 80px !important;
+}
+
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPHero .name,
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPHero .name .clip {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPHero .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Connector line between title and cards */
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeatures {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 80px;
+  gap: 24px;
+  counter-reset: card-num;
+}
+
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeatures::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #00d4ff, #ff2d95, transparent);
+}
+
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeatures::after {
+  content: '';
+  position: absolute;
+  top: -2.5px; left: 50%;
+  transform: translateX(-50%);
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 6px #00d4ff, 0 0 12px #ff2d95;
+}
+
+/* -- Cards -- */
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeature {
+  counter-increment: card-num;
+  position: relative !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.6) 0%, transparent 60%),
+    radial-gradient(ellipse at 70% 80%, rgba(0,212,255,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 90%, rgba(255,45,149,0.05) 0%, transparent 50%),
+    rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(128, 128, 140, 0.25) !important;
+  border-radius: 14px !important;
+  padding: 20px 28px 20px 72px !important;
+  box-shadow:
+    0 4px 24px rgba(0,0,0,0.06),
+    inset 0 1px 0 rgba(255,255,255,0.8),
+    inset 0 -1px 0 rgba(0,0,0,0.04) !important;
+  transition: all 0.3s ease !important;
+  overflow: hidden;
+}
+
+/* Artistic number */
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeature::after {
+  content: counter(card-num, decimal);
+  position: absolute;
+  left: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  background: linear-gradient(120deg, #42b883 0%, #3b82f6 40%, #8b5cf6 65%, #42b883 100%);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hero-gradient 4s ease infinite;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeature:hover {
+  transform: translateY(-2px) !important;
+  box-shadow:
+    0 4px 20px rgba(66, 184, 131, 0.15),
+    0 8px 32px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Title */
+.VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeature .title {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  text-align: center;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  color: #42b883 !important;
+  margin: 0 !important;
+}
+
+/* Dark mode */
+.dark .VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeature {
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(255,255,255,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 70% 80%, rgba(0,212,255,0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 90%, rgba(255,45,149,0.06) 0%, transparent 50%),
+    rgba(30, 30, 48, 0.5) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-color: rgba(128, 128, 140, 0.2) !important;
+  box-shadow:
+    0 4px 24px rgba(0,0,0,0.4),
+    inset 0 1px 0 rgba(255,255,255,0.05),
+    inset 0 -1px 0 rgba(0,0,0,0.2) !important;
+}
+.dark .VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeature .title { color: #e8e8f0 !important; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPHero .name {
+    font-size: 28px;
+    white-space: normal;
+  }
+  .VPHome:has(.VPFeatures):not(:has(.home-grid)) .VPFeatures {
+    max-width: 100%;
+    padding: 28px 16px 0;
+  }
+}
