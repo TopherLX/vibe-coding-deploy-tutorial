@@ -109,13 +109,13 @@ hero:
 
 <style>
 .home-grid {
-  max-width: 1152px;
+  max-width: var(--vp-layout-max-width);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 150px;
 }
 
 .home-grid .section-title {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--vp-c-text-1);
   margin-bottom: 20px;
@@ -235,15 +235,14 @@ hero:
 }
 
 .home-intro {
-  max-width: 1152px;
+  max-width: var(--vp-layout-max-width);
   margin: 24px auto 0;
   text-align: left;
-  padding: 0 24px 0;
+  padding: 0 150px 0;
 }
 
 .home-intro h2 {
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--vp-c-text-1);
 }

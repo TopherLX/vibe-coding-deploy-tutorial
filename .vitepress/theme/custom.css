@@ -6,7 +6,7 @@
   --vp-c-brand-2: #33a06f;
   --vp-c-brand-3: #5fd999;
   --vp-c-brand-soft: rgba(66, 184, 131, 0.14);
-  --vp-layout-max-width: 1152px;
+  --vp-layout-max-width: 1400px;
 }
 
 .dark {
@@ -33,30 +33,14 @@
   border-bottom: 1px solid var(--vp-c-divider);
 }
 
-/* === Hero === */
-.VPHero {
-  position: relative;
-  padding-top: 106px !important;
-  padding-bottom: 0 !important;
+/* === Shared Hero Animation === */
+@keyframes hero-gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
-.VPHero .container {
-  max-width: var(--vp-layout-max-width);
-  margin: 0 auto;
-  padding: 0 24px;
-  position: relative;
-  z-index: 1;
-}
-
-.VPHero .main {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.VPHero .tagline {
-  white-space: nowrap;
-}
-
+/* === Deploy Page Hero === */
 .VPHero .name {
   max-width: none;
   white-space: nowrap;
@@ -73,27 +57,44 @@
   white-space: nowrap;
 }
 
-@keyframes hero-gradient {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+.VPHome:not(:has(.VPFeatures)) .VPHero {
+  position: relative;
+  padding-top: 106px !important;
+  padding-bottom: 0 !important;
 }
 
-.VPHero .text {
+.VPHome:not(:has(.VPFeatures)) .VPHero .container {
+  max-width: var(--vp-layout-max-width);
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.VPHome:not(:has(.VPFeatures)) .VPHero .main {
+  padding-left: 275px;
+  padding-right: 0;
+  text-align: left;
+}
+
+.VPHome:not(:has(.VPFeatures)) .VPHero .tagline {
+  white-space: nowrap;
+}
+
+.VPHome:not(:has(.VPFeatures)) .VPHero .text {
   color: var(--vp-c-text-1);
   font-weight: 300;
 }
 
-.dark .VPHero .text {
+.dark .VPHome:not(:has(.VPFeatures)) .VPHero .text {
   color: var(--vp-c-text-1);
 }
 
-.VPHero .actions {
+.VPHome:not(:has(.VPFeatures)) .VPHero .actions {
   margin-top: 0.5rem;
   margin-bottom: 0;
 }
 
-.VPHero .VPButton.brand {
+.VPHome:not(:has(.VPFeatures)) .VPHero .VPButton.brand {
   border-radius: 8px;
   padding: 0 32px;
   font-size: 1.05rem;
@@ -104,12 +105,11 @@
   border: none;
 }
 
-.VPHero .VPButton.brand:hover {
+.VPHome:not(:has(.VPFeatures)) .VPHero .VPButton.brand:hover {
   opacity: 0.9;
 }
 
-/* Hero background glow */
-.VPHero::before {
+.VPHome:not(:has(.VPFeatures)) .VPHero::before {
   content: '';
   position: absolute;
   top: -50%;
@@ -121,7 +121,7 @@
   z-index: 0;
 }
 
-.VPHero::after {
+.VPHome:not(:has(.VPFeatures)) .VPHero::after {
   content: '';
   position: absolute;
   bottom: -40%;

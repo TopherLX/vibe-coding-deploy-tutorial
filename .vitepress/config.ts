@@ -21,9 +21,13 @@ export default defineConfig({
     siteTitle: 'Vibe Coding 教程',
 
     nav: [
-      { text: '部署教程', link: '/deploy/' },
-      { text: '基础教程', link: '/basics/' },
-      { text: 'FAQ', link: '/deploy/faq' },
+      {
+        text: '教程',
+        items: [
+          { text: '部署教程', link: '/deploy/' },
+          { text: '基础教程', link: '/basics/' },
+        ],
+      },
     ],
 
     sidebar: {
