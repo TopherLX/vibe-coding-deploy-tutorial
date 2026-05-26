@@ -44,7 +44,7 @@ npm install @anthropic-ai/claude-code -g
 2. 如果存在 `claude.ps1`，则路径可能未成功配置到用户环境变量，需手动添加
 3. 如果不存在，终端输入 `npm root -g`，获取 npm 全局安装包根路径，打开对应文件夹，依次打开子文件夹 @anthropic-ai、claude-code、bin，可见 `claude.exe` 文件，将当前文件夹路径手动添加至用户环境变量
 
-环境变量添加方法参考 [常见问题解答](../guide/faq.md#q5-如何编辑用户环境变量)。
+环境变量添加方法参考 [常见问题解答](/deploy/faq#q5-如何编辑用户环境变量)。
 
 ## 验证
 
