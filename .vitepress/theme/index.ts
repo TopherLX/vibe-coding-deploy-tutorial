@@ -94,6 +94,7 @@ const Fireworks = defineComponent({
     }
 
     watch(() => route.path, (path) => {
+      if (typeof window === 'undefined') return
       if (path === '/deploy/conclusion' || path === '/deploy/conclusion.html') {
         setTimeout(start, 100)
       } else if (show.value) {
@@ -103,7 +104,7 @@ const Fireworks = defineComponent({
 
     onBeforeUnmount(() => {
       stop()
-      window.removeEventListener('resize', resize)
+      if (typeof window !== 'undefined') window.removeEventListener('resize', resize)
     })
 
     return () => show.value
