@@ -4,7 +4,7 @@ title: Claude Code 终端安装指南
 
 # Claude Code - 终端 CLI
 
-[Claude Code](https://code.claude.com/docs/en/overview) 是一款 AI 编程助手，它能够理解代码库、编辑文件、运行命令、构建新功能、修复 Bug 、自动化开发任务。当你于终端键入 `claude` 时，它默认进入的是一种 **TUI（Text-based User Interface，基于文本的用户界面）**。这种界面通过特殊的字符排版，模拟出了类似聊天软件的窗口（包含顶部的状态栏、中间的对话区、底部的输入框等）。
+[Claude Code](https://code.claude.com/docs/en/overview) 是一款 AI 编程助手，能够理解代码库、编辑文件、运行命令、构建新功能、修复 Bug 等。这里安装的是它的 **CLI（Command-Line Interface，命令行界面）** 版本 —— 与依赖鼠标操作的图形界面软件不同，CLI 工具完全在终端中运行，通过键盘输入文本命令与计算机交互。当你于终端键入 `claude` 后，它会进入 **TUI（Text-based User Interface，基于文本的用户界面）** 模式，用字符排版模拟出类似聊天软件的窗口（包含状态栏、对话区、底部的输入框等）。
 
 ![](../images/claude-code-terminal/01-demo.gif)
 
@@ -48,7 +48,8 @@ npm install @anthropic-ai/claude-code -g
 
 ## 验证
 
-1. 终端输入命令 `claude --version`
-2. 如下图，正常显示版本号则安装成功
+1. `Win + R` 输入 `wt` 打开 Windows Terminal
+2. 终端输入命令 `claude --version`
+3. 如下图，正常显示版本号则安装成功
 
 ![](../images/claude-code-terminal/05-verify.png)

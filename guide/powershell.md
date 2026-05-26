@@ -12,27 +12,27 @@ title: PowerShell 7 安装指南
 
 ## 安装步骤
 
-1. 参考官方指南，或使用附件`PowerShell-7.6.1-win-x64.msi`安装，点击`Next`
+1. 参考官方指南，或使用附件 `PowerShell-7.6.1-win-x64.msi` 安装，点击 `Next`
 
 ![](../images/powershell/02-next.png)
 
-2. 选择安装路径并点击`Next`
+2. 选择安装路径并点击 `Next`
 
 ![](../images/powershell/03-path.png)
 
-3. 勾选前2个选项并点击`Next`
+3. 勾选前2个选项并点击 `Next`
 
 ![](../images/powershell/04-options.png)
 
-4. 点击`Next`
+4. 点击 `Next`
 
 ![](../images/powershell/05-next2.png)
 
-5. 点击`Install`
+5. 点击 `Install`
 
 ![](../images/powershell/06-install.png)
 
-6. 等待安装完成，点击`Finish`
+6. 等待安装完成，点击 `Finish`
 
 ![](../images/powershell/07-complete.png)
 
@@ -40,10 +40,10 @@ title: PowerShell 7 安装指南
 
 ## 验证
 
-1. 可以在开始菜单中找到应用
+1. 开始菜单找到应用
 
 ![](../images/powershell/09-start-menu.png)
 
-2. `Win + R`输入`pwsh`可打开终端
+2. `Win + R` 输入 `pwsh` 可打开终端
 
 ![](../images/powershell/10-pwsh.png)

@@ -72,14 +72,14 @@ hero:
     <a class="grid-card" href="/guide/claude-code-terminal">
       <span class="card-heading">
         <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="10" stroke="#42b883" stroke-width="2"/><path d="M11 16l4 3 6-6" stroke="#42b883" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <span class="card-title">Claude Code 终端</span>
+        <span class="card-title">Claude Code CLI</span>
       </span>
       <span class="card-desc">在命令行中通过自然语言描述意图，由 AI 完成代码编写与调试</span>
     </a>
     <a class="grid-card" href="/guide/claude-code-extension">
       <span class="card-heading">
         <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><rect x="2" y="2" width="12" height="12" rx="2" stroke="#42b883" stroke-width="2"/><rect x="18" y="2" width="12" height="12" rx="2" stroke="#42b883" stroke-width="2"/><rect x="2" y="18" width="12" height="12" rx="2" stroke="#42b883" stroke-width="2"/><rect x="18" y="18" width="12" height="12" rx="2" stroke="#42b883" stroke-width="2"/></svg></span>
-        <span class="card-title">Claude Code 扩展</span>
+        <span class="card-title">Claude Code Extension</span>
       </span>
       <span class="card-desc">VS Code 原生集成 AI 编程，在 IDE 中审查、修改和接受代码方案</span>
     </a>
@@ -89,6 +89,13 @@ hero:
         <span class="card-title">CC Switch</span>
       </span>
       <span class="card-desc">图形化管理 50+ AI 模型服务商，无需手动修改配置文件，一键切换</span>
+    </a>
+    <a class="grid-card" href="/guide/verify-third-party-model">
+      <span class="card-heading">
+        <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="10" stroke="#42b883" stroke-width="2"/><path d="M11 16l4 3 6-6" stroke="#42b883" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <span class="card-title">验证模型接入</span>
+      </span>
+      <span class="card-desc">在终端和 VS Code 扩展中验证第三方 AI 模型是否已正确接入</span>
     </a>
   </div>
 </div>

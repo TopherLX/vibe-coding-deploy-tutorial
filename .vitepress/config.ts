@@ -35,9 +35,10 @@ export default defineConfig({
             text: '安装 AI 开发工具',
             items: [
               { text: '概述', link: '/guide/install-ai-tools' },
-              { text: 'Claude Code 终端', link: '/guide/claude-code-terminal' },
-              { text: 'Claude Code 扩展', link: '/guide/claude-code-extension' },
+              { text: 'Claude Code CLI', link: '/guide/claude-code-terminal' },
+              { text: 'Claude Code Extension', link: '/guide/claude-code-extension' },
               { text: 'CC Switch', link: '/guide/cc-switch' },
+              { text: '验证第三方模型接入', link: '/guide/verify-third-party-model' },
             ],
           },
         ],
@@ -64,15 +65,17 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '概述', link: '/guide/install-ai-tools' },
-          { text: 'Claude Code 终端', link: '/guide/claude-code-terminal' },
-          { text: 'Claude Code 扩展', link: '/guide/claude-code-extension' },
+          { text: 'Claude Code CLI', link: '/guide/claude-code-terminal' },
+          { text: 'Claude Code Extension', link: '/guide/claude-code-extension' },
           { text: 'CC Switch', link: '/guide/cc-switch' },
+          { text: '验证第三方模型接入', link: '/guide/verify-third-party-model' },
         ],
       },
       {
-        text: '常见问题解答',
+        text: '更多',
         collapsed: false,
         items: [
+          { text: '结语', link: '/guide/conclusion' },
           { text: 'FAQ', link: '/guide/faq' },
         ],
       },
