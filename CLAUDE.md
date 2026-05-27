@@ -25,7 +25,7 @@ npx vitepress build  # 直接用 vitepress CLI 构建
 ├── config.ts             # 站点配置（nav 下拉、sidebar、rewrites、搜索）
 ├── theme/
 │   ├── index.ts          # 继承默认主题 + 作者签名 + 结语页烟花组件
-│   ├── custom.css        # Tailwind v4 + 品牌色 + Hero 渐变动画 + 液态玻璃卡片 + 全局样式
+│   ├── custom.css        # 品牌色 + Hero 渐变动画 + 液态玻璃卡片 + 全局样式（纯手写 CSS，无框架）
 │   └── css.d.ts          # *.css 模块类型声明
 index.md                  # 总入口主页（渐变动画标题 + 2 张液态玻璃分发卡片）
 tutorials/
