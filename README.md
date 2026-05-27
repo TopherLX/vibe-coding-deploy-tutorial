@@ -55,7 +55,7 @@ npm run preview
 ## 技术栈
 
 - **框架**: [VitePress](https://vitepress.dev/) — 基于 Vite 的静态站点生成器
-- **样式**: [Tailwind CSS v4](https://tailwindcss.com/) + 自定义 CSS
+- **样式**: 纯手写 CSS（不使用 CSS 框架，避免与 VitePress 内置样式冲突）
 - **语言**: TypeScript
 
 ## 项目结构
@@ -65,7 +65,7 @@ npm run preview
 ├── config.ts              # 站点配置（nav、sidebar、rewrites、搜索）
 └── theme/
     ├── index.ts           # 主题入口 + 签名 + 烟花组件
-    └── custom.css         # Tailwind v4 + 品牌色 + 渐变动画 + 液态玻璃卡片
+    └── custom.css         # 品牌色 + 渐变动画 + 液态玻璃卡片（纯手写 CSS）
 index.md                   # 总入口主页（2 张分发卡片）
 tutorials/
 ├── deploy/

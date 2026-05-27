@@ -25,7 +25,7 @@ npx vitepress build  # 直接用 vitepress CLI 构建
 ├── config.ts             # 站点配置（nav 下拉、sidebar、rewrites、搜索）
 ├── theme/
 │   ├── index.ts          # 继承默认主题 + 作者签名 + 结语页烟花组件
-│   ├── custom.css        # Tailwind v4 + 品牌色 + Hero 渐变动画 + 液态玻璃卡片 + 全局样式
+│   ├── custom.css        # 品牌色 + Hero 渐变动画 + 液态玻璃卡片 + 全局样式（纯手写 CSS，无框架）
 │   └── css.d.ts          # *.css 模块类型声明
 index.md                  # 总入口主页（渐变动画标题 + 2 张液态玻璃分发卡片）
 tutorials/
@@ -56,7 +56,7 @@ public/images/icons/      # 根首页卡片图标（SVG）
 - **导航栏**: 单个"教程"下拉菜单，包含部署教程和基础教程入口
 - **图片路径**: 内容页用 `../images/<章节>/` 相对路径（docs/ → images/）
 - **包管理器**: 统一使用 npm，不混用 pnpm
-- **Tailwind v4**: 通过 `@tailwindcss/vite` 插件注入，CSS-first 配置（`@import "tailwindcss"`），无 `tailwind.config.js`
+- **样式方案**: 纯手写 CSS，不使用 Tailwind（Tailwind preflight 会破坏 VitePress 导航栏组件）
 - **4 个页面**（git/nodejs/pnpm/windows-terminal）的"官方网站"节用 `<iframe>` 嵌入官网预览
 - **结语页**: 路由触发 canvas 烟花动画（Fireworks 组件，SSR 安全）
 
