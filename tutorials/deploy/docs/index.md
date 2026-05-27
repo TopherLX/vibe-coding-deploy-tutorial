@@ -234,6 +234,10 @@ hero:
   }
 }
 
+.home-grid + .author-signature {
+  padding-right: 150px;
+}
+
 .home-intro {
   max-width: var(--vp-layout-max-width);
   margin: 24px auto 0;
