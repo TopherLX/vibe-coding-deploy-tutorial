@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   title: 'Vibe Coding 教程',
@@ -13,9 +12,7 @@ export default defineConfig({
     'tutorials/basics/docs/:p.md': 'basics/:p.md',
   },
 
-  vite: {
-    plugins: [tailwindcss()],
-  },
+  vite: {},
 
   themeConfig: {
     siteTitle: 'Vibe Coding 教程',
