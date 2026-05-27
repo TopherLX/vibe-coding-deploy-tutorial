@@ -42,7 +42,7 @@
 # 安装依赖
 npm install
 
-# 启动开发服务器 (http://localhost:5173)
+# 启动开发服务器
 npm run dev
 
 # 生产构建
@@ -55,7 +55,7 @@ npm run preview
 ## 技术栈
 
 - **框架**: [VitePress](https://vitepress.dev/) — 基于 Vite 的静态站点生成器
-- **样式**: 纯手写 CSS（不使用 CSS 框架，避免与 VitePress 内置样式冲突）
+- **样式**: 不使用 CSS 框架，避免与 VitePress 内置样式冲突
 - **语言**: TypeScript
 
 ## 项目结构
@@ -64,8 +64,8 @@ npm run preview
 .vitepress/
 ├── config.ts              # 站点配置（nav、sidebar、rewrites、搜索）
 └── theme/
-    ├── index.ts           # 主题入口 + 签名 + 烟花组件
-    └── custom.css         # 品牌色 + 渐变动画 + 液态玻璃卡片（纯手写 CSS）
+    ├── index.ts           # 主题入口 + 签名 + 其他组件
+    └── custom.css         # 自定义样式
 index.md                   # 总入口主页（2 张分发卡片）
 tutorials/
 ├── deploy/
