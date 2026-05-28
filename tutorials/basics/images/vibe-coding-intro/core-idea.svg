@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#42b883"/>
+      <stop offset="33%" stop-color="#3b82f6"/>
+      <stop offset="66%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#42b883"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto">
+      <polygon points="0 0, 7 2.5, 0 5" fill="#999"/>
+    </marker>
+  </defs>
+
+  <!-- Step 1 -->
+  <rect x="20" y="45" width="160" height="72" rx="12" fill="#fff" stroke="#42b883" stroke-width="2.2"/>
+  <text x="100" y="76" text-anchor="middle" font-size="14" font-weight="700" fill="#42b883">描述意图</text>
+  <text x="100" y="97" text-anchor="middle" font-size="10.5" fill="#999">自然语言表达需求</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="180" y1="81" x2="242" y2="81" stroke="#999" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <rect x="250" y="45" width="160" height="72" rx="12" fill="#fff" stroke="#3b82f6" stroke-width="2.2"/>
+  <text x="330" y="76" text-anchor="middle" font-size="14" font-weight="700" fill="#3b82f6">AI 生成代码</text>
+  <text x="330" y="97" text-anchor="middle" font-size="10.5" fill="#999">Agent 自动编码实现</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="410" y1="81" x2="472" y2="81" stroke="#999" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <rect x="480" y="45" width="160" height="72" rx="12" fill="#fff" stroke="#8b5cf6" stroke-width="2.2"/>
+  <text x="560" y="76" text-anchor="middle" font-size="14" font-weight="700" fill="#8b5cf6">人工审查</text>
+  <text x="560" y="97" text-anchor="middle" font-size="10.5" fill="#999">Review 安全把关</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="640" y1="81" x2="702" y2="81" stroke="#999" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <!-- Step 4 -->
+  <rect x="710" y="45" width="160" height="72" rx="12" fill="#42b883" fill-opacity="0.07" stroke="#42b883" stroke-width="2.2"/>
+  <text x="790" y="76" text-anchor="middle" font-size="14" font-weight="700" fill="#38a06c">迭代优化</text>
+  <text x="790" y="97" text-anchor="middle" font-size="10.5" fill="#999">反馈后重新描述</text>
+
+  <!-- Return arc -->
+  <path d="M 790 44 Q 790 14 450 14 Q 100 14 100 44" fill="none" stroke="#42b883" stroke-width="1.3" stroke-dasharray="5 4" opacity="0.3"/>
+  <text x="450" y="12" text-anchor="middle" font-size="9.5" fill="#42b883" opacity="0.5">循环迭代</text>
+
+  <!-- Bottom description -->
+  <rect x="230" y="142" width="440" height="26" rx="7" fill="#888" fill-opacity="0.06"/>
+  <text x="450" y="160" text-anchor="middle" font-size="11.5" fill="#888">开发者 = 架构师 + 审查者    ·    AI = 执行协作伙伴</text>
+</svg>

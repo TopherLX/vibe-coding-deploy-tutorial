@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+  <defs>
+    <filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.06"/></filter>
+    <marker id="am" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#42b883"/>
+    </marker>
+    <marker id="ah" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#3b82f6"/>
+    </marker>
+  </defs>
+
+  <!-- ===== ENTITY NODES ===== -->
+
+  <!-- Agent (Left) -->
+  <rect x="40" y="75" width="160" height="72" rx="14" fill="#fff" stroke="#42b883" stroke-width="2" filter="url(#sh)"/>
+  <text x="120" y="105" text-anchor="middle" font-size="15" font-weight="700" fill="#42b883">Agent</text>
+  <text x="120" y="127" text-anchor="middle" font-size="10.5" fill="#aaa">AI 编码助手</text>
+
+  <!-- Developer (Center) -->
+  <rect x="360" y="55" width="180" height="112" rx="14" fill="#fff" stroke="#8b5cf6" stroke-width="2.5" filter="url(#sh)"/>
+  <text x="450" y="95" text-anchor="middle" font-size="15" font-weight="700" fill="#8b5cf6">开发者</text>
+  <text x="450" y="117" text-anchor="middle" font-size="10.5" fill="#aaa">信息中转 · 加工交付</text>
+  <text x="450" y="137" text-anchor="middle" font-size="9.5" fill="#ccc">审查 · 决策 · 产出</text>
+
+  <!-- User (Right) -->
+  <rect x="700" y="75" width="160" height="72" rx="14" fill="#fff" stroke="#f59e0b" stroke-width="2" filter="url(#sh)"/>
+  <text x="780" y="105" text-anchor="middle" font-size="15" font-weight="700" fill="#f59e0b">用户 / 需求方</text>
+  <text x="780" y="127" text-anchor="middle" font-size="10.5" fill="#aaa">确认需求 · 验收结果</text>
+
+  <!-- ===== CHANNEL 1: Agent ⇄ Developer — Markdown ===== -->
+  <line x1="200" y1="90" x2="350" y2="90" stroke="#42b883" stroke-width="2.8" marker-end="url(#am)"/>
+  <rect x="222" y="38" width="96" height="24" rx="6" fill="#42b883" fill-opacity="0.12"/>
+  <text x="270" y="55" text-anchor="middle" font-size="11" font-weight="700" fill="#38a06c">Markdown</text>
+  <text x="270" y="78" text-anchor="middle" font-size="8" fill="#aaa">沟通格式</text>
+
+  <line x1="360" y1="130" x2="207" y2="130" stroke="#42b883" stroke-width="1.2" stroke-dasharray="5 4" marker-end="url(#am)" opacity="0.3"/>
+
+  <!-- ===== CHANNEL 2: Developer ⇄ User — HTML ===== -->
+  <line x1="540" y1="90" x2="690" y2="90" stroke="#3b82f6" stroke-width="2.8" marker-end="url(#ah)"/>
+  <rect x="562" y="38" width="84" height="24" rx="6" fill="#3b82f6" fill-opacity="0.12"/>
+  <text x="604" y="55" text-anchor="middle" font-size="11" font-weight="700" fill="#2563eb">HTML</text>
+  <text x="604" y="78" text-anchor="middle" font-size="8" fill="#aaa">沟通格式</text>
+
+  <line x1="700" y1="130" x2="547" y2="130" stroke="#3b82f6" stroke-width="1.2" stroke-dasharray="5 4" marker-end="url(#ah)" opacity="0.3"/>
+
+  <!-- Developer → Outputs -->
+  <line x1="450" y1="167" x2="450" y2="210" stroke="#8b5cf6" stroke-width="2.2" marker-end="url(#am)"/>
+  <text x="460" y="194" font-size="9" fill="#8b5cf6" opacity="0.6">输出交付</text>
+
+  <!-- ===== DEVELOPER OUTPUTS (bottom) ===== -->
+  <rect x="100" y="215" width="700" height="84" rx="10" fill="#fafafa" stroke="#eee" stroke-width="1"/>
+
+  <text x="450" y="238" text-anchor="middle" font-size="11" font-weight="700" fill="#666">开 发 者 输 出 产 物</text>
+
+  <!-- Output items -->
+  <rect x="130" y="250" width="130" height="36" rx="8" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="195" y="265" text-anchor="middle" font-size="10" fill="#888">处理后的</text>
+  <text x="195" y="279" text-anchor="middle" font-size="11" font-weight="700" fill="#f59e0b">.xlsx 数据报表</text>
+
+  <rect x="280" y="250" width="130" height="36" rx="8" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="345" y="265" text-anchor="middle" font-size="10" fill="#888">封装好的</text>
+  <text x="345" y="279" text-anchor="middle" font-size="11" font-weight="700" fill="#8b5cf6">.py 自动化脚本</text>
+
+  <rect x="430" y="250" width="130" height="36" rx="8" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="495" y="265" text-anchor="middle" font-size="10" fill="#888">可视化的</text>
+  <text x="495" y="279" text-anchor="middle" font-size="11" font-weight="700" fill="#3b82f6">.html 交互报告</text>
+
+  <rect x="580" y="250" width="130" height="36" rx="8" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="645" y="265" text-anchor="middle" font-size="10" fill="#888">整理好的</text>
+  <text x="645" y="279" text-anchor="middle" font-size="11" font-weight="700" fill="#42b883">.md 技术文档</text>
+
+  <rect x="730" y="250" width="48" height="36" rx="8" fill="#eee"/>
+  <text x="754" y="275" text-anchor="middle" font-size="12" font-weight="700" fill="#bbb">...</text>
+
+</svg>

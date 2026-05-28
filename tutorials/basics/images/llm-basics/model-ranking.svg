@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#94a3b8"/><stop offset="100%" stop-color="#cbd5e1"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#d97706"/><stop offset="100%" stop-color="#f59e0b"/></linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/></filter>
+  </defs>
+
+  <rect width="720" height="440" rx="10" fill="#0f172a"/>
+
+  <text x="360" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#f1f5f9">Chatbot Arena 模型综合排名（Elo 分数）</text>
+  <text x="360" y="46" text-anchor="middle" font-size="10" fill="#64748b">来源: LMSys Chatbot Arena · 数据截至 2026 年 5 月 · 基于数百万次人类盲测投票</text>
+
+  <!-- Rank 1: GPT-5.5-high -->
+  <rect x="30" y="62" width="660" height="38" rx="6" fill="#f59e0b" opacity="0.08" stroke="url(#g)" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="55" y="86" font-size="16" font-weight="800" fill="#fbbf24">🥇 1</text>
+  <text x="90" y="86" font-size="13" font-weight="700" fill="#f1f5f9">GPT-5.5-high</text>
+  <text x="230" y="86" font-size="10" fill="#94a3b8">OpenAI</text>
+  <rect x="340" y="78" width="310" height="8" rx="4" fill="url(#g)" opacity="0.5"/>
+  <text x="660" y="86" text-anchor="end" font-size="12" font-weight="700" fill="#fbbf24">1,506</text>
+
+  <!-- Rank 2: Claude Opus 4.7 Thinking -->
+  <rect x="30" y="105" width="660" height="38" rx="6" fill="#94a3b8" opacity="0.05" stroke="url(#s)" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="55" y="129" font-size="16" font-weight="800" fill="#cbd5e1">🥈 2</text>
+  <text x="90" y="129" font-size="13" font-weight="700" fill="#f1f5f9">Claude Opus 4.7 Thinking</text>
+  <text x="278" y="129" font-size="10" fill="#94a3b8">Anthropic</text>
+  <rect x="340" y="121" width="308" height="8" rx="4" fill="url(#s)" opacity="0.4"/>
+  <text x="660" y="129" text-anchor="end" font-size="12" font-weight="700" fill="#cbd5e1">1,505</text>
+
+  <!-- Rank 3: Gemini 3.1 Pro -->
+  <rect x="30" y="148" width="660" height="38" rx="6" fill="#d97706" opacity="0.05" stroke="url(#b)" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="55" y="172" font-size="16" font-weight="800" fill="#fbbf24">🥉 3</text>
+  <text x="90" y="172" font-size="13" font-weight="700" fill="#f1f5f9">Gemini 3.1 Pro</text>
+  <text x="230" y="172" font-size="10" fill="#94a3b8">Google DeepMind</text>
+  <rect x="340" y="164" width="308" height="8" rx="4" fill="url(#b)" opacity="0.35"/>
+  <text x="660" y="172" text-anchor="end" font-size="12" font-weight="700" fill="#fbbf24">1,505</text>
+
+  <!-- Rank 4: Claude Opus 4.7 -->
+  <rect x="30" y="191" width="660" height="34" rx="6" fill="#fff" opacity="0.03" stroke="#334155" stroke-width="1"/>
+  <text x="55" y="213" font-size="14" font-weight="700" fill="#94a3b8">4</text>
+  <text x="90" y="213" font-size="12" font-weight="600" fill="#e2e8f0">Claude Opus 4.7</text>
+  <text x="230" y="213" font-size="10" fill="#94a3b8">Anthropic</text>
+  <rect x="340" y="205" width="306" height="6" rx="3" fill="#8b5cf6" opacity="0.35"/>
+  <text x="660" y="213" text-anchor="end" font-size="11" fill="#94a3b8">1,503</text>
+
+  <!-- Rank 5: Claude Opus 4.6 Thinking -->
+  <rect x="30" y="229" width="660" height="34" rx="6" fill="#fff" opacity="0.03" stroke="#334155" stroke-width="1"/>
+  <text x="55" y="251" font-size="14" font-weight="700" fill="#94a3b8">5</text>
+  <text x="90" y="251" font-size="12" font-weight="600" fill="#e2e8f0">Claude Opus 4.6 Thinking</text>
+  <text x="278" y="251" font-size="10" fill="#94a3b8">Anthropic</text>
+  <rect x="340" y="243" width="306" height="6" rx="3" fill="#8b5cf6" opacity="0.3"/>
+  <text x="660" y="251" text-anchor="end" font-size="11" fill="#94a3b8">1,503</text>
+
+  <!-- Rank 6: Grok-4.20 -->
+  <rect x="30" y="267" width="660" height="34" rx="6" fill="#fff" opacity="0.03" stroke="#334155" stroke-width="1"/>
+  <text x="55" y="289" font-size="14" font-weight="700" fill="#94a3b8">6</text>
+  <text x="90" y="289" font-size="12" font-weight="600" fill="#e2e8f0">Grok-4.20</text>
+  <text x="230" y="289" font-size="10" fill="#94a3b8">xAI</text>
+  <rect x="340" y="281" width="295" height="6" rx="3" fill="#22c55e" opacity="0.25"/>
+  <text x="660" y="289" text-anchor="end" font-size="11" fill="#94a3b8">1,496</text>
+
+  <!-- Rank 7: GPT-5.4-high -->
+  <rect x="30" y="305" width="660" height="34" rx="6" fill="#fff" opacity="0.03" stroke="#334155" stroke-width="1"/>
+  <text x="55" y="327" font-size="14" font-weight="700" fill="#94a3b8">7</text>
+  <text x="90" y="327" font-size="12" font-weight="600" fill="#e2e8f0">GPT-5.4-high</text>
+  <text x="230" y="327" font-size="10" fill="#94a3b8">OpenAI</text>
+  <rect x="340" y="319" width="294" height="6" rx="3" fill="#22c55e" opacity="0.25"/>
+  <text x="660" y="327" text-anchor="end" font-size="11" fill="#94a3b8">1,495</text>
+
+  <!-- Rank 8: DeepSeek V4-Pro 🟢 -->
+  <rect x="30" y="343" width="660" height="34" rx="6" fill="#42b883" opacity="0.06" stroke="#42b883" stroke-width="1.5"/>
+  <text x="55" y="365" font-size="14" font-weight="700" fill="#42b883">8</text>
+  <text x="90" y="365" font-size="12" font-weight="700" fill="#4ade80">DeepSeek V4-Pro 🟢</text>
+  <text x="278" y="365" font-size="10" fill="#94a3b8">DeepSeek · MIT 开源</text>
+  <rect x="340" y="357" width="240" height="6" rx="3" fill="#42b883" opacity="0.4"/>
+  <text x="660" y="365" text-anchor="end" font-size="11" fill="#4ade80">1,467</text>
+
+  <!-- Rank 9: Claude Sonnet 4.6 -->
+  <rect x="30" y="381" width="660" height="28" rx="6" fill="#fff" opacity="0.02" stroke="#1e293b" stroke-width="1"/>
+  <text x="55" y="400" font-size="13" font-weight="600" fill="#64748b">9</text>
+  <text x="85" y="400" font-size="11" fill="#94a3b8">Claude Sonnet 4.6 · Anthropic · Elo ~1,460</text>
+
+  <!-- Rank 10: DeepSeek V4-Flash -->
+  <rect x="30" y="412" width="660" height="28" rx="6" fill="#fff" opacity="0.02" stroke="#1e293b" stroke-width="1"/>
+  <text x="55" y="431" font-size="13" font-weight="600" fill="#64748b">10</text>
+  <text x="85" y="431" font-size="11" fill="#94a3b8">DeepSeek V4-Flash 🟢 · DeepSeek · Arena Elo 1,445 · 性价比之王 $0.07/M</text>
+</svg>
