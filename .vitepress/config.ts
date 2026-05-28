@@ -67,10 +67,15 @@ export default defineConfig({
       ],
       '/basics/': [
         {
-          text: 'Vibe Coding 基础',
+          text: '基础入门章节',
           collapsed: false,
           items: [
-            { text: '概述', link: '/basics/' },
+            { text: '概述', link: '/basics/overview' },
+            { text: 'LLM 基础概念', link: '/basics/llm-basics' },
+            { text: 'Vibe Coding 相关理念', link: '/basics/vibe-coding-intro' },
+            { text: 'Claude Code 使用指南', link: '/basics/claude-code-usage' },
+            { text: 'Claude Code Skill 与插件', link: '/basics/claude-code-plugins' },
+            { text: '数据可视化插件', link: '/basics/data-visualization' },
           ],
         },
       ],
@@ -91,6 +96,7 @@ export default defineConfig({
 
     outline: {
       label: '页面导航',
+      level: [2, 3],
     },
 
     socialLinks: [
