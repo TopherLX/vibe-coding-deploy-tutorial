@@ -35,11 +35,11 @@ CC CLI 快捷命令切换工作模式：
 <img src="../images/claude-code-usage/bypass_cli.png" alt="Claude Code 模式切换" style="max-width:480px;width:100%" />
 
 ### Vscode开启 Auto mode / Bypass permissions
-<img src="../images/claude-code-usage/cc_mode.png" alt="Claude Code 五种工作模式" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 cc_mode.png -->
 1. 打开 VS Code 左上角File->首选项->设置 
-<img src="../images/claude-code-usage/bypass_setting.png" alt="bypass设置" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 bypass_setting.png -->
 2. 搜索 Claude Code
-<img src="../images/claude-code-usage/bypas_setting2.png" alt="bypass设置2" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 bypas_setting2.png -->
 3. 找到并勾选Claude Code: Allow Dangerously Skip Permissions
 
 4. 设置 Claude Code: Initial Permission Mode 为 bypassPermissions
@@ -69,7 +69,7 @@ Claude Code 配合 CC Switch 插件可接入多套模型供应商（如 Anthropi
 
 > 输入 `/model` 后会弹出模型选择列表，使用 **← → 方向键切换模型思维深度**。
 
-<img src="../images/claude-code-usage/switch_model.png" alt="切换模型" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 switch_model.png -->
 
 
 ## 常用操作速查
@@ -115,7 +115,7 @@ Claude Code 提供 CLI 和 VS Code 扩展两种使用方式，功能支持略有
 
 **⑤ Vscode会话列表总览**
 
-<img src="../images/claude-code-usage/history.png" alt="会话管理" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 history.png -->
 
 #### 代码操作
 
@@ -147,7 +147,7 @@ Claude Code 提供 CLI 和 VS Code 扩展两种使用方式，功能支持略有
 | `fork conversation and Rewindc code` | 从当前对话中分支出一个新会话并回滚代码|
 
 **Vscode管理对话**
-<img src="../images/claude-code-usage/rewind code.png" alt="回滚代码" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 rewind code.png -->
 
 #### 工具
 
@@ -168,11 +168,11 @@ Claude Code 提供 CLI 和 VS Code 扩展两种使用方式，功能支持略有
 
 **③ CLI agents**
 
-<img src="../images/claude-code-usage/agents.png" alt="agents" style="max-width:480px;width:100%" />
+<img src="../images/claude-code-usage/Agents.png" alt="agents" style="max-width:480px;width:100%" />
 
 **④ Vscode工具菜单总览**
 
-<img src="../images/claude-code-usage/tool.png" alt="模型与工具" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 tool.png -->
 
 #### 信息查看
 

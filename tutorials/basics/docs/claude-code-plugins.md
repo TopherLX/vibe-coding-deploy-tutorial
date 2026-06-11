@@ -37,15 +37,15 @@ Claude Code 有两个官方 Marketplace 源：
 
 1. 在 Claude Code 中输入 `/plugin` 打开插件管理面板
 
-<img src="../images/claude-code-usage/plugin.png" alt="插件管理面板" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 plugin.png -->
 
 2. 选择第三个选项 **Add Marketplace**
 
-<img src="../images/claude-code-usage/marketplace.png" alt="添加 Marketplace" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 marketplace.png -->
 
 3. 输入要添加的仓库地址：
 
-<img src="../images/claude-code-usage/marketplace2.png" alt="输入仓库地址" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 marketplace2.png -->
 
 ```
 # Skills 市场
@@ -58,8 +58,8 @@ https://github.com/anthropics/claude-plugins-official
 > 该步骤可能需要网络代理访问 GitHub。如无法访问，参考下方的离线安装方式。
 
 4. 仓库加载成功后按回车查看详情，确认后选择 **Install now** 完成安装
-<img src="../images/claude-code-usage/plugin_install.png" alt="插件安装" style="max-width:480px;width:100%" />
-<img src="../images/claude-code-usage/plugin2.png" alt="插件安装2" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 plugin_install.png -->
+<!-- TODO: 待补充图片 plugin2.png -->
 
 重复以上步骤可添加两个官方源，也可添加社区维护的镜像仓库。
 
@@ -134,7 +134,7 @@ C:\Users\<你的用户名>\.claude\skills\
 │   └── SKILL.md
 ```
 
-<img src="../images/claude-code-usage/skills.png" alt="skills目录结构" style="max-width:480px;width:100%" />
+<!-- TODO: 待补充图片 skills.png -->
 
 **Step 3 — 验证安装**
 
