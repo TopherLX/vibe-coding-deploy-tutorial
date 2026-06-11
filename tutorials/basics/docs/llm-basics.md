@@ -146,4 +146,3 @@ Claude Code 在每次对话开始时，会静默地将项目根目录的 `CLAUDE
 |------|------|------|
 | [OpenAI Tokenizer](https://platform.openai.com/tokenizer) | OpenAI | 在线分词演示，直观感受中英文 Token 切分差异 |
 | [nanoGPT](https://github.com/karpathy/nanoGPT) | Andrej Karpathy | ~300 行 PyTorch 实现的 GPT-2 训练代码，学习 LLM 原理的最佳实践项目 |
-| [A Developer's Guide to Context Windows](https://github.blog/ai-and-ml/github-copilot/a-developers-guide-to-context-windows/) | GitHub Blog | 面向开发者的上下文窗口工程实践指南
