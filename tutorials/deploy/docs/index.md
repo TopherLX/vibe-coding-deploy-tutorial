@@ -23,13 +23,6 @@ hero:
 <div class="home-grid">
   <h2 class="section-title">安装依赖项</h2>
   <div class="grid-row">
-    <a class="grid-card" href="/deploy/vscode">
-      <span class="card-heading">
-        <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><rect x="3" y="5" width="26" height="22" rx="3" stroke="#42b883" stroke-width="2"/><polygon points="11,13 11,20 19,16.5" fill="#42b883"/></svg></span>
-        <span class="card-title">Visual Studio Code</span>
-      </span>
-      <span class="card-desc">微软推出的免费跨平台代码编辑器，拥有海量扩展生态</span>
-    </a>
     <a class="grid-card" href="/deploy/powershell">
       <span class="card-heading">
         <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><rect x="3" y="5" width="26" height="22" rx="3" stroke="#42b883" stroke-width="2"/><text x="7" y="21" font-size="12" font-weight="700" fill="#42b883" font-family="monospace">&gt;_</text></svg></span>
@@ -64,6 +57,13 @@ hero:
         <span class="card-title">Git</span>
       </span>
       <span class="card-desc">最流行的分布式版本控制系统，代码变更追踪与协作必备</span>
+    </a>
+    <a class="grid-card" href="/deploy/vscode">
+      <span class="card-heading">
+        <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><rect x="3" y="5" width="26" height="22" rx="3" stroke="#42b883" stroke-width="2"/><polygon points="11,13 11,20 19,16.5" fill="#42b883"/></svg></span>
+        <span class="card-title">Visual Studio Code</span>
+      </span>
+      <span class="card-desc">微软推出的免费跨平台代码编辑器，拥有海量扩展生态</span>
     </a>
   </div>
 

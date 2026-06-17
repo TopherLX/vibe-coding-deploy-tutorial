@@ -12,7 +12,7 @@ title: PowerShell 7 安装指南
 
 ## 安装步骤
 
-1. 参考官方指南，或使用附件 `PowerShell-7.6.1-win-x64.msi` 安装，点击 `Next`
+1. 参考官方指南，或使用附件 `PowerShell-<version>-win-x64.msi` 安装，点击 `Next`
 
 ![](../images/powershell/02-next.png)
 

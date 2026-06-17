@@ -2,9 +2,9 @@
 title: pnpm 安装指南
 ---
 
-# pnpm
+# pnpm (Optional)
 
-[pnpm](https://docmost.cttq.com/s/CMAC/p/tutorial-vibe-coding-6mgbZdwKPj#bdqkzldgrdru) 是一个快速且节省磁盘空间的现代 Node.js 包管理器
+[pnpm](https://pnpm.io/installation) 是一个快速且节省磁盘空间的现代 Node.js 包管理器
 
 ## 官方网站
 

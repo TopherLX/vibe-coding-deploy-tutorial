@@ -15,7 +15,7 @@ title: Git 安装指南
 
 ## 安装步骤
 
-1. 从官网下载安装包，或使用附件 `Git-2.54.0-64-bit.exe` 安装，点击 `Next`
+1. 从官网下载安装包，或使用附件 `Git-<version>-64-bit.exe` 安装，点击 `Next`
 
 ![](../images/git/01-installer.png)
 

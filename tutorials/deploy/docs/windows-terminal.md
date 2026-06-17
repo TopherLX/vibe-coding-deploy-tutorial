@@ -15,7 +15,8 @@ title: Windows Terminal 安装指南
 
 ## 安装步骤
 
-1. 从官网下载安装包
+1. 使用附件 `Microsoft.WindowsTerminal_<version>.msixbundle` 安装，  
+或直接从官网下载安装包（见下图）
 
 ![](../images/windows-terminal/01-installer.png)
 

@@ -34,12 +34,12 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '概述', link: '/deploy/install-dependencies' },
-            { text: 'Visual Studio Code', link: '/deploy/vscode' },
             { text: 'PowerShell 7', link: '/deploy/powershell' },
             { text: 'Windows Terminal', link: '/deploy/windows-terminal' },
             { text: 'Node.js', link: '/deploy/nodejs' },
             { text: 'pnpm', link: '/deploy/pnpm' },
             { text: 'Git', link: '/deploy/git' },
+            { text: 'Visual Studio Code', link: '/deploy/vscode' },
           ],
         },
         {

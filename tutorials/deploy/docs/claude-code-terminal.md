@@ -24,7 +24,8 @@ irm https://claude.ai/install.ps1 | iex
 
 ### 特殊网络环境不允许时，推荐使用 npm 安装
 
-1. 自动从 npm 官方仓库拉取适配当前操作系统的最新版本 claude-code 包
+1. 自动从 npm 官方仓库拉取适配当前操作系统的最新版本 claude-code 包  
+<span style="color: red; font-weight: bold;">尽量以管理员身份运行终端</span>
 
 ```powershell
 npm install @anthropic-ai/claude-code -g

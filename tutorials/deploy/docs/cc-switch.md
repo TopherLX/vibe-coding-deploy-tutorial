@@ -12,7 +12,7 @@ title: CC Switch 安装与配置指南
 
 ## 安装步骤
 
-1. 从官方网站下载，或使用附件 `CC-Switch-v3.15.0-Windows.msi` 安装并点击 `Next`
+1. 从官方网站下载，或使用附件 `CC-Switch-<version>-Windows.msi` 安装并点击 `Next`
 
 ![](../images/cc-switch/02-installer.png)
 
