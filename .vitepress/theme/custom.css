@@ -29,6 +29,16 @@
 /* === Nav Bar Divider === */
 .VPNavBar {
   border-bottom: 1px solid var(--vp-c-divider);
+  overflow: visible;
+}
+
+.VPNavBar .container {
+  overflow: visible;
+}
+
+.VPNavBar .content,
+.VPNavBar .content-body {
+  overflow: visible;
 }
 
 /* === Shared Hero Animation === */
@@ -383,4 +393,101 @@
     max-width: 100%;
     padding: 28px 16px 0;
   }
+}
+
+/* ─── 安装包下拉按钮（导航栏） ─── */
+.installer-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 14px;
+}
+
+.installer-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 12px;
+  line-height: 28px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid var(--vp-c-brand-1);
+  border-radius: 14px;
+  background: transparent;
+  color: var(--vp-c-brand-1);
+  cursor: pointer;
+  transition: background 0.25s, color 0.25s;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+.installer-btn:hover {
+  background: var(--vp-c-brand-1);
+  color: #fff;
+}
+
+.installer-chevron {
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.installer-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  white-space: nowrap;
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(0,0,0,.12);
+  padding: 6px;
+  z-index: 999;
+}
+
+.installer-menu.open {
+  display: block;
+}
+
+.installer-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  font-family: inherit;
+  gap: 8px;
+}
+
+.installer-item:hover {
+  background: var(--vp-c-brand-1);
+  color: #fff;
+}
+
+.installer-toast {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  background: var(--vp-c-text-1);
+  color: var(--vp-c-bg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s;
+  white-space: nowrap;
+  z-index: 101;
+}
+
+.installer-toast.show {
+  opacity: 1;
 }

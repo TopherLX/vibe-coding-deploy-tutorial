@@ -127,12 +127,113 @@ const Fireworks = defineComponent({
   },
 })
 
+const InstallerDropdown = defineComponent({
+  setup() {
+    const open = ref(false)
+    const copied = ref(false)
+    const btnRef = ref<HTMLElement | null>(null)
+    const containerRef = ref<HTMLElement | null>(null)
+    let timer = 0
+
+    function toggle() {
+      open.value = !open.value
+    }
+
+    function copy(link: string) {
+      navigator.clipboard.writeText(link).then(() => {
+        open.value = false
+        copied.value = true
+        clearTimeout(timer)
+        timer = window.setTimeout(() => copied.value = false, 2000)
+      }).catch(() => {
+        prompt('复制链接 (Ctrl+C):', link)
+      })
+    }
+
+    function onBlur(e: FocusEvent) {
+      // Close when focus leaves the dropdown
+      const el = containerRef.value
+      if (el && !el.contains(e.relatedTarget as Node)) {
+        open.value = false
+      }
+    }
+
+    return () =>
+      h('div', {
+        ref: containerRef,
+        class: 'installer-dropdown',
+        tabindex: -1,
+        onFocusout: onBlur,
+      }, [
+        h('button', {
+          ref: btnRef,
+          class: 'installer-btn',
+          onClick: toggle,
+        }, [
+          h('span', '安装包'),
+          h('svg', {
+            class: 'installer-chevron',
+            width: 10, height: 10,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            'stroke-width': 2,
+            'stroke-linecap': 'round',
+            'stroke-linejoin': 'round',
+          }, [
+            h('polyline', { points: '6 9 12 15 18 9' }),
+          ]),
+        ]),
+        h('div', { class: open.value ? 'installer-menu open' : 'installer-menu' }, [
+          h('button', {
+            class: 'installer-item',
+            onClick: () => copy('https://pan.quark.cn/s/your-link-here'),
+          }, [
+            h('span', '夸克网盘'),
+            h('svg', {
+              width: 14, height: 14,
+              viewBox: '0 0 24 24',
+              fill: 'none',
+              stroke: 'currentColor',
+              'stroke-width': 2,
+              'stroke-linecap': 'round',
+              'stroke-linejoin': 'round',
+            }, [
+              h('rect', { x: 9, y: 9, width: 13, height: 13, rx: 2, ry: 2 }),
+              h('path', { d: 'M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1' }),
+            ]),
+          ]),
+          h('button', {
+            class: 'installer-item',
+            onClick: () => copy('https://pan.baidu.com/s/your-link-here'),
+          }, [
+            h('span', '百度网盘'),
+            h('svg', {
+              width: 14, height: 14,
+              viewBox: '0 0 24 24',
+              fill: 'none',
+              stroke: 'currentColor',
+              'stroke-width': 2,
+              'stroke-linecap': 'round',
+              'stroke-linejoin': 'round',
+            }, [
+              h('rect', { x: 9, y: 9, width: 13, height: 13, rx: 2, ry: 2 }),
+              h('path', { d: 'M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1' }),
+            ]),
+          ]),
+        ]),
+        h('span', { class: copied.value ? 'installer-toast show' : 'installer-toast' }, '已复制链接'),
+      ])
+  },
+})
+
 export default {
   extends: DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'doc-after': signature,
       'layout-top': () => h(Fireworks),
+      'nav-bar-content-after': () => h(InstallerDropdown),
     })
   },
 }

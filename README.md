@@ -65,7 +65,7 @@ npm run preview
 .vitepress/
 ├── config.ts              # 站点配置（nav、sidebar、rewrites、搜索）
 └── theme/
-    ├── index.ts           # 主题入口 + 签名 + 其他组件
+    ├── index.ts           # 主题入口 + 签名 + 烟花组件 + 导航栏安装包下拉按钮
     └── custom.css         # 自定义样式
 index.md                   # 总入口主页（2 张分发卡片）
 tutorials/

@@ -117,6 +117,7 @@ hero:
 </div>
 
 <style>
+/* ─── Home Grid ─── */
 .home-grid {
   max-width: var(--vp-layout-max-width);
   margin: 0 auto;

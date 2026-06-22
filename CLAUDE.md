@@ -24,7 +24,7 @@ npx vitepress build  # 直接用 vitepress CLI 构建
 .vitepress/
 ├── config.ts             # 站点配置（nav 下拉、sidebar、rewrites、搜索）
 ├── theme/
-│   ├── index.ts          # 继承默认主题 + 作者签名 + 结语页烟花组件
+│   ├── index.ts          # 继承默认主题 + 作者签名 + 结语页烟花 + 导航栏安装包下拉按钮
 │   ├── custom.css        # 品牌色 + Hero 渐变动画 + 液态玻璃卡片 + 全局样式（纯手写 CSS，无框架）
 │   └── css.d.ts          # *.css 模块类型声明
 index.md                  # 总入口主页（渐变动画标题 + 2 张液态玻璃分发卡片）
@@ -66,6 +66,7 @@ tutorials/
 - 根首页卡片通过 `index.md` 的 `features` frontmatter 配置
 - 部署首页卡片网格在 `tutorials/deploy/docs/index.md` 中用 HTML + 内联 `<style>` 实现
 - 品牌色修改只需改 `custom.css` 中的 `--vp-c-brand-*` 变量（含 `.dark` 暗色模式）
+- 导航栏安装包下拉链接在 `.vitepress/theme/index.ts` 的 `InstallerDropdown` 组件中修改（搜索 `pan.quark` 和 `pan.baidu`）
 
 ## Git 分支
 
