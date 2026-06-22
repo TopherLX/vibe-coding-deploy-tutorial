@@ -46,7 +46,7 @@ title: CC Switch 安装与配置指南
 
 ![](../images/cc-switch/09-copy-key.png)
 
-4. 打开 CC Switch，点击右上角 `+`
+4. 打开 CC Switch，确保选择正确的应用图标，再点击右上角 `+`
 
 ![](../images/cc-switch/10-click-plus.png)
 
@@ -61,6 +61,10 @@ title: CC Switch 安装与配置指南
 7. 参考下图填写 `模型映射` 和 `默认兜底模型`，最后点击 `添加`
 
 ![](../images/cc-switch/13-model-mapping.png)
+
+8. 回到首页，确保新增模型配置为`使用中`
+
+![](../images/cc-switch/14-start-config.png)
 
 ## 下一步
 

@@ -2,7 +2,7 @@
 title: Claude Code 扩展安装指南
 ---
 
-# Claude Code - VS Code 扩展
+# Claude Code - VS Code 扩展 <small style="font-size: 0.6em; font-style: italic; color: grey">(Optional)</small>
 
 VS Code 扩展为 Claude Code 提供了原生图形界面，并直接集成到 IDE 中。借助于该扩展，可以在接受 Claude 的方案之前进行审查和修改、自动接受其实时做出的修改、通过选区以特定的行号范围提及文件、访问对话历史记录，以及在独立的标签页或窗口中打开多个对话。
 
