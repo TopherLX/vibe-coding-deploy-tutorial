@@ -187,7 +187,7 @@ const InstallerDropdown = defineComponent({
         h('div', { class: open.value ? 'installer-menu open' : 'installer-menu' }, [
           h('button', {
             class: 'installer-item',
-            onClick: () => copy('https://pan.quark.cn/s/your-link-here'),
+            onClick: () => copy('链接：https://pan.quark.cn/s/14b9362b5cab?pwd=5ddS 提取码：5ddS'),
           }, [
             h('span', '夸克网盘'),
             h('svg', {
@@ -205,7 +205,7 @@ const InstallerDropdown = defineComponent({
           ]),
           h('button', {
             class: 'installer-item',
-            onClick: () => copy('https://pan.baidu.com/s/your-link-here'),
+            onClick: () => copy('链接：https://pan.baidu.com/s/1DOOZXjPQYvyxLSA2jAuRKA?pwd=sx57 提取码：sx57'),
           }, [
             h('span', '百度网盘'),
             h('svg', {
