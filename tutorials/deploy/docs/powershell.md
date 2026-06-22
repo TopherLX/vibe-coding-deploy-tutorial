@@ -2,7 +2,7 @@
 title: PowerShell 7 安装指南
 ---
 
-# PowerShell 7
+# PowerShell 7 <small style="font-size: 0.6em; font-style: italic; color: grey">(Windows only)</small>
 
 [PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.6) 是一个跨平台的任务自动化解决方案，它集成了命令行终端（Shell）、脚本语言以及配置管理框架。同时，PowerShell 支持在 Windows、Linux 和 macOS 系统上运行。
 

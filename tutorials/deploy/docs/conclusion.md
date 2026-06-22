@@ -10,6 +10,7 @@ title: 结语
 
 - **PowerShell 7** — 现代化命令行 Shell
 - **Windows Terminal** — 终端模拟器
+- **Python** — Python 运行时
 - **Node.js** — JavaScript 运行时
 - **pnpm** — 高效的包管理器
 - **Git** — 版本控制系统

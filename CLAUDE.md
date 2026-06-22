@@ -30,12 +30,11 @@ npx vitepress build  # 直接用 vitepress CLI 构建
 index.md                  # 总入口主页（渐变动画标题 + 2 张液态玻璃分发卡片）
 tutorials/
 ├── deploy/
-│   ├── docs/             # 部署教程 15 个 .md 文件
-│   └── images/           # 按章节组织的截图（12 个章节子目录 + icons）
+│   ├── docs/             # 部署教程 16 个 .md 文件
+│   └── images/           # 按章节组织的截图（13 个章节子目录）
 └── basics/
     ├── docs/             # 基础教程（占位中）
     └── images/           # 预留
-public/images/icons/      # 根首页卡片图标（SVG）
 ```
 
 ### URL 映射（VitePress rewrites）
@@ -57,7 +56,7 @@ public/images/icons/      # 根首页卡片图标（SVG）
 - **图片路径**: 内容页用 `../images/<章节>/` 相对路径（docs/ → images/）
 - **包管理器**: 统一使用 npm，不混用 pnpm
 - **样式方案**: 纯手写 CSS，不使用 Tailwind（Tailwind preflight 会破坏 VitePress 导航栏组件）
-- **4 个页面**（git/nodejs/pnpm/windows-terminal）的"官方网站"节用 `<iframe>` 嵌入官网预览
+- **5 个页面**（git/nodejs/pnpm/python/windows-terminal）的"官方网站"节用 `<iframe>` 嵌入官网预览
 - **结语页**: 路由触发 canvas 烟花动画（Fireworks 组件，SSR 安全）
 
 ## 内容更新注意

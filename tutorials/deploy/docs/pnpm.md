@@ -2,7 +2,7 @@
 title: pnpm 安装指南
 ---
 
-# pnpm (Optional)
+# pnpm <small style="font-size: 0.6em; font-style: italic; color: grey">(Optional)</small>
 
 [pnpm](https://pnpm.io/installation) 是一个快速且节省磁盘空间的现代 Node.js 包管理器
 

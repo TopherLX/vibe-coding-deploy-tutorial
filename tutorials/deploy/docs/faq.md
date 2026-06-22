@@ -232,3 +232,45 @@ npm install -g @anthropic-ai/claude-code@latest
 ```
 
 重启终端后运行 `claude --version` 即可确认版本是否已更新。
+
+## Q11：macOS 依赖项安装方法
+
+通常情况下，macOS可直接使用 [Homebrew](https://brew.sh/) 管理和安装依赖包
+
+1. 打开终端，安装 Xcode 命令行工具
+
+```zsh
+xcode-select --install
+```
+
+或直接使用[离线安装包](https://developer.apple.com/download/more/) `Command_Line_Tools_<version>_Universal.dmg`
+
+2. 重新打开终端，安装Homebrew
+
+国内镜像源（**推荐**），安装问题可参考 [Homebre 中文网](https://brew.idayer.com/guide/start)：
+
+```zsh
+/bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
+```
+
+官方途径：
+
+```zsh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+3. 重新打开终端，安装依赖包
+
+```zsh
+#python
+brew install python
+
+# node
+brew install node
+
+# git
+brew install git
+
+# cc-switch
+brew install --cask cc-switch
+```

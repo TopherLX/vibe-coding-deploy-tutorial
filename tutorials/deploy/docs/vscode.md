@@ -2,7 +2,7 @@
 title: Visual Studio Code 安装指南
 ---
 
-# Visual Studio Code (Optional)
+# Visual Studio Code <small style="font-size: 0.6em; font-style: italic; color: grey">(Optional)</small>
 
 [Visual Studio Code](https://code.visualstudio.com/)（简称 VS Code）是一款跨平台的代码编辑器，支持 Windows、macOS 和 Linux。
 

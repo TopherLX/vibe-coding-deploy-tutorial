@@ -18,6 +18,7 @@
 | [Visual Studio Code](https://ai-coding-tutorials.tech/deploy/vscode) | 微软免费跨平台代码编辑器 |
 | [PowerShell 7](https://ai-coding-tutorials.tech/deploy/powershell) | 微软开源跨平台自动化 Shell |
 | [Windows Terminal](https://ai-coding-tutorials.tech/deploy/windows-terminal) | 微软全新终端应用 |
+| [Python](https://ai-coding-tutorials.tech/deploy/python) | 跨平台编程语言，AI 与数据科学生态基石 |
 | [Node.js](https://ai-coding-tutorials.tech/deploy/nodejs) | JavaScript 运行时，前端工具链基石 |
 | [pnpm](https://ai-coding-tutorials.tech/deploy/pnpm) | 现代 Node.js 包管理器 |
 | [Git](https://ai-coding-tutorials.tech/deploy/git) | 分布式版本控制系统 |
@@ -69,12 +70,11 @@ npm run preview
 index.md                   # 总入口主页（2 张分发卡片）
 tutorials/
 ├── deploy/
-│   ├── docs/              # 部署教程 15 个 .md
+│   ├── docs/              # 部署教程 16 个 .md
 │   └── images/            # 按章节组织的截图
 └── basics/
     ├── docs/              # 基础教程（占位中）
     └── images/            # 预留
-public/images/icons/       # 卡片图标
 ```
 
 ## 部署

@@ -14,9 +14,11 @@ hero:
 
 ## 教程简介
 
-本教程面向 Windows 用户，系统性地指导完成 **Vibe Coding（氛围编程）** 开发环境的完整搭建。Vibe Coding 是一种以 AI 为核心驱动力的现代编程范式——开发者通过自然语言描述意图，由 AI 助手完成代码生成、编辑与调试，从而将精力聚焦于设计思路而非实现细节。
+本教程主要面向 Windows 用户，系统性指导 **Vibe Coding（氛围编程）** 开发环境的完整搭建。Vibe Coding 是一种以 AI 为核心驱动力的现代编程范式——开发者通过自然语言描述意图，由 AI 助手完成代码生成、编辑与调试，从而将精力聚焦于设计思路而非实现细节。
 
 全教程以图文并茂的方式呈现，每节末尾附有验证步骤，方便读者随时自查安装是否成功。完成全部配置后，即可在 Windows 环境中流畅使用 AI 赋能的 Vibe Coding 工作流。
+
+<small style="font-style: italic">macOS用户可参考 <a href="/deploy/faq#q11-macos-依赖项安装方法">FAQ-11</a></small>
 
 </div>
 
@@ -36,6 +38,13 @@ hero:
         <span class="card-title">Windows Terminal</span>
       </span>
       <span class="card-desc">微软全新终端应用，多标签页、GPU 加速、丰富主题</span>
+    </a>
+    <a class="grid-card" href="/deploy/python">
+      <span class="card-heading">
+        <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><path d="M16 4C11 4 10 6 10 8v4h6v2H8c-3 0-4 2-4 5s1 5 4 5h2v-4c0-3 2-4 4-4h6c3 0 4-2 4-5s-1-5-4-5z" stroke="#42b883" stroke-width="2"/><path d="M16 28c5 0 6-2 6-4v-4h-6v-2h8c3 0 4-2 4-5s-1-5-4-5h-2v4c0 3-2 4-4 4h-6c-3 0-4 2-4 5s1 5 4 5z" stroke="#42b883" stroke-width="2"/></svg></span>
+        <span class="card-title">Python</span>
+      </span>
+      <span class="card-desc">简洁优雅的跨平台编程语言，AI 与数据科学生态基石</span>
     </a>
     <a class="grid-card" href="/deploy/nodejs">
       <span class="card-heading">
