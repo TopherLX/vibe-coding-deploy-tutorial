@@ -39,6 +39,13 @@ hero:
       </span>
       <span class="card-desc">微软全新终端应用，多标签页、GPU 加速、丰富主题</span>
     </a>
+    <a class="grid-card" href="/deploy/vscode">
+      <span class="card-heading">
+        <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><rect x="3" y="5" width="26" height="22" rx="3" stroke="#42b883" stroke-width="2"/><polygon points="11,13 11,20 19,16.5" fill="#42b883"/></svg></span>
+        <span class="card-title">Visual Studio Code</span>
+      </span>
+      <span class="card-desc">微软推出的免费跨平台代码编辑器，拥有海量扩展生态</span>
+    </a>
     <a class="grid-card" href="/deploy/python">
       <span class="card-heading">
         <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><path d="M16 4C11 4 10 6 10 8v4h6v2H8c-3 0-4 2-4 5s1 5 4 5h2v-4c0-3 2-4 4-4h6c3 0 4-2 4-5s-1-5-4-5z" stroke="#42b883" stroke-width="2"/><path d="M16 28c5 0 6-2 6-4v-4h-6v-2h8c3 0 4-2 4-5s-1-5-4-5h-2v4c0 3-2 4-4 4h-6c-3 0-4 2-4 5s1 5 4 5z" stroke="#42b883" stroke-width="2"/></svg></span>
@@ -66,13 +73,6 @@ hero:
         <span class="card-title">Git</span>
       </span>
       <span class="card-desc">最流行的分布式版本控制系统，代码变更追踪与协作必备</span>
-    </a>
-    <a class="grid-card" href="/deploy/vscode">
-      <span class="card-heading">
-        <span class="card-icon"><svg width="24" height="24" viewBox="0 0 32 32" fill="none"><rect x="3" y="5" width="26" height="22" rx="3" stroke="#42b883" stroke-width="2"/><polygon points="11,13 11,20 19,16.5" fill="#42b883"/></svg></span>
-        <span class="card-title">Visual Studio Code</span>
-      </span>
-      <span class="card-desc">微软推出的免费跨平台代码编辑器，拥有海量扩展生态</span>
     </a>
   </div>
 

@@ -31,7 +31,8 @@ title: Git 安装指南
 
 ![](../images/git/04-next.png)
 
-5. 选择 `Use Visual Studio Code as Git's default editor` 并点击 `Next`
+5. 选择 `Use Visual Studio Code as Git's default editor` 并点击 `Next`  
+<small style="font-style: italic;">如果没有安装VS Code，选择 `Use Notepad as Git's default editor`</small>
 
 ![](../images/git/05-editor.png)
 
