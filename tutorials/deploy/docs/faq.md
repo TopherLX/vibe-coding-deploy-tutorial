@@ -235,7 +235,7 @@ npm install -g @anthropic-ai/claude-code@latest
 
 ## Q11：macOS 依赖项安装方法
 
-通常情况下，macOS可直接使用 [Homebrew](https://brew.sh/) 管理和安装依赖包
+通常情况下，macOS可直接使用 [Homebrew](https://brew.sh/) 管理和安装依赖包，以下是具体步骤
 
 1. 打开终端，安装 Xcode 命令行工具
 
@@ -259,7 +259,8 @@ xcode-select --install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-3. 重新打开终端，安装依赖包
+3. 重新打开终端，安装依赖包  
+<small style="color: red; font-style: italic">逐行复制到终端！<br>#开头的是注释不用复制！</small>
 
 ```zsh
 #python
